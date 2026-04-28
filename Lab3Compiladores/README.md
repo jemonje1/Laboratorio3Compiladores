@@ -298,45 +298,16 @@ boollit → true | false
 
 ---
 
-## Estructura del Proyecto
-
-```
-Lab3Compiladores/
-├── src/
-│   ├── App.java                          # Punto de entrada
-│   ├── Inicio.java                       # Flujo principal
-│   ├── AnalizadorLexico/
-│   │   ├── AnalizadorLexico.java        # Tokenización
-│   │   └── Token.java                   # Representación de tokens
-│   ├── AnalizadorSintactico/
-│   │   ├── AnalizadorSintactico.java    # Parser descendente recursivo
-│   │   ├── Parser.java                  # Reglas de parsing
-│   │   ├── NodoAst.java                 # Nodos del árbol
-│   │   ├── ResultadoAnalisis.java       # Resultados procesados
-│   │   ├── ExportadorDot.java           # Generador formato DOT
-│   │   └── VisualizadorArbol.java       # Visualización gráfica
-│   ├── Semantico/
-│   │   ├── EvaluadorPostFija.java       # Evaluación de expresiones
-│   │   ├── TablaSimbolos.java           # Tabla de símbolos
-│   │   └── Valor.java                   # Tipos de valores
-│   ├── Archivo/
-│   │   └── Archivo.java                 # Manejo de archivos
-│   └── lib/                             # Dependencias externas
-└── README.md                            # Esta documentación
-```
-
----
-
 ## Características Implementadas
 
-✓ Análisis léxico con detección de errores  
-✓ Parser descendente recursivo sin recursión a izquierda  
-✓ Generación de notación postfija (RPN)  
-✓ Construcción de árbol de sintaxis abstracta (AST)  
-✓ Evaluación semántica con tabla de símbolos  
-✓ Exportación a formato DOT para Graphviz  
-✓ Visualización gráfica interactiva del AST  
-✓ Manejo robusto de errores  
+- Análisis léxico con detección de errores  
+- Parser descendente recursivo sin recursión a izquierda  
+- Generación de notación postfija (RPN)  
+- Construcción de árbol de sintaxis abstracta (AST)  
+- Evaluación semántica con tabla de símbolos  
+- Exportación a formato DOT para Graphviz  
+- Visualización gráfica interactiva del AST  
+- Manejo robusto de errores  
 
 ---
 
@@ -349,8 +320,6 @@ Lab3Compiladores/
 - Se soportan tanto **tipos enteros como booleanos**
 
 ---
-
-## Contacto
 
 - **Sophia Alejandra Corea Perdomo** - Carné: 1185324
 - **Javier Enrique Monje Pérez** - Carné: 1260524
